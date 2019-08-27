@@ -6,7 +6,8 @@
   "author": "Alexander Paz <alexjpaz@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build": "webpack -p"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^5.0.4",
