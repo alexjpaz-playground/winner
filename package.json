@@ -1,0 +1,19 @@
+{
+  "name": "winner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:alexjpaz-playground/winner.git",
+  "author": "Alexander Paz <alexjpaz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack -p"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
